@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* Navbar */
+nav{
+    background:#003366;
+    color:white;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* Hero Section */
+.hero{
+    height:90vh;
+    background:linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("https://newtonsnie.co.in/img/why-newtons/1.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:55px;
+}
+
+.hero p{
+    font-size:22px;
+    margin:15px 0;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    background:gold;
+    font-size:18px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+/* About */
+.about{
+    padding:60px 80px;
+    text-align:center;
+    background:white;
+}
+
+.about h2{
+    margin-bottom:20px;
+    color:#003366;
+}
+
+/* Courses */
+.courses{
+    padding:60px 80px;
+    text-align:center;
+}
+
+.course-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:250px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:10px;
+}
+
+/* Footer */
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
