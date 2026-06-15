@@ -1,5 +1,5 @@
 
-
+(live-link)[https://collage.bytexl.live/]
 ## Detailed Project Overview of College Website
 
 The **College Website Project** is a front-end web development project designed to provide comprehensive information about a college through an attractive and user-friendly interface. The website is developed using **HTML** for structuring the content and **CSS** for designing and styling the web pages. The project aims to create an online presence for the college, allowing students, parents, faculty members, and visitors to access important information from anywhere at any time.
